@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Veterinaria Pet BsAs</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Veterinaria Pet BsAs</h1>
+    <nav>
+      <button id="modo-claro">Modo Claro</button>
+      <button id="modo-oscuro">Modo Oscuro</button>
+    </nav>
+    <nav>
+        <ul>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#equipo">Equipo</a></li>
+          <li><a href="#objetos">Objetos para adoptar</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+  </header>
+  <main>
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <p>Ofrecemos una amplia gama de servicios veterinarios para cuidar de tu mascota.</p>
+        <ul>
+          <li>Consultas veterinarias</li>
+          <li>Vacunación</li>
+          <li>Cirugía</li>
+          <li>Odontología</li>
+          <li>... y mucho más</li>
+        </ul>
+    </section>
+
+    <section id="equipo">
+        <h2>Equipo</h2>
+        <p>Nuestro equipo está formado por veterinarios altamente capacitados y amantes de los animales.</p>
+        <img src="equipo.jpg" alt="Equipo veterinario">
+    </section>
+
+    <section id="objetos">
+        <h2>Objetos para adoptar</h2>
+        <ul>
+          <li>Juguete</li>
+          <li>Cama</li>
+          <li>Comedero</li>
+          <li>Bebedero</li>
+          <li>Transportín</li>
+          <li>Correa</li>
+          <li>Collar</li>
+        </ul>
+      </section>
+      
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Estamos ubicados en la calle Corrientes 123, Ciudad de Bs As. Puedes contactarnos al teléfono 11 2345-6789 o enviarnos un mensaje a nuestro correo electrónico info@veterinariabsas.com</p>
+        <form>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+          
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+  </main>
+  <footer>
+    <p>Veterinaria Pet BsAs - Todos los derechos reservados</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
